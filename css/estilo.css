@@ -3,6 +3,29 @@
     margin: 0;
     padding: 0;
 }
+/* PROPIEDADES DE LISTA */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #e1e5ed;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* CAMBIA EL COLOR CUANDO SE HACE HOVER */
+li a:hover {
+    background-color: #e53d3d;
+    color: white;
+}
+
+
 body{
 	    font-family: sans-serif;
 	    background-color:white;
