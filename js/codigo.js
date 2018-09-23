@@ -93,6 +93,7 @@ function mostrarEnfermedad(numero) {
       div = document.getElementById('emer1');
       div.style.display = "flex";
       console.log(numero);
+      
     } 
     if (numero === 2) {
       div = document.getElementById('emer2');
