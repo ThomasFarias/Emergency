@@ -82,19 +82,36 @@ $(document).ready(function(){
 });
 
 function mostrarEnfermedad(numero) {
+
+    clase = document.getElementsByClassName('paso_emergencias');
+      
+    for (var i = 0; i < clase.length; i++) {
+      clase[i].style.display = "none";
+    }
+
     if (numero === 1) {
+      div = document.getElementById('emer1');
+      div.style.display = "flex";
       console.log(numero);
     } 
     if (numero === 2) {
+      div = document.getElementById('emer2');
+      div.style.display = "flex";
       console.log(numero);
     } 
     if (numero === 3) {
+      div = document.getElementById('emer3');
+      div.style.display = "flex";
       console.log(numero);
     } 
     if (numero === 4) {
+      div = document.getElementById('emer4');
+      div.style.display = "flex";
       console.log(numero);
     } 
     if (numero === 5) {
+      div = document.getElementById('emer5');
+      div.style.display = "flex";
       console.log(numero);
     } 
 }
