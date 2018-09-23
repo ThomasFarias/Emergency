@@ -3,12 +3,24 @@
     margin: 0;
     padding: 0;
 }
+
+.lista{
+	width:60%;
+	background-color:gray;
+	display:flex;
+	flex-wrap:wrap;
+
+	margin-top:10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* PROPIEDADES DE LISTA */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 100%;
     background-color: #e1e5ed;
 }
 
@@ -17,6 +29,7 @@ li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    text-align: center;
 }
 
 /* CAMBIA EL COLOR CUANDO SE HACE HOVER */
