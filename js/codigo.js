@@ -81,3 +81,21 @@ $(document).ready(function(){
   });
 });
 
+function mostrarEnfermedad(numero) {
+    if (numero === 1) {
+      console.log(numero);
+    } 
+    if (numero === 2) {
+      console.log(numero);
+    } 
+    if (numero === 3) {
+      console.log(numero);
+    } 
+    if (numero === 4) {
+      console.log(numero);
+    } 
+    if (numero === 5) {
+      console.log(numero);
+    } 
+}
+
