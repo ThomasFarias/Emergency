@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+	    font-family: sans-serif;
+	    background-color:white;
+
+	}
+	article{
+		margin-left:auto;
+		margin-right:auto;
+		width:50%;
+		margin-top:40px;
+		font-size:20px;
+background-color: white	;
+    color:#16A085;
+}
+ select{
+    background-color:white;
+    color:gray;
+    border-color: gray;
+    font-weight: bold;
+    font-size:15px;
+       width:20%;
+       margin-left: 40%;
+       margin-bottom:20px;
+      
+       margin-top:20px;
+}
+select option{
+
+
+    color:gray;
+    font-size:15px;
+
+}
+header h1{
+    color:#F46C6C;
+    font-size:50px;
+};
+.contenedor{
+	margin-top: 2%;
+	margin-left:auto;
+	margin-right:auto;
+    width:100%;
+
+    
+}
+
+header .emer{
+	margin-left:auto; 
+	margin-right: auto;
+	margin-bottom:2%;
+	width:20%;
+	display:flex;
+	flex-wrap:wrap;
+	
+
+}
+header{
+	margin-top:10px;
+
+
+
+	
+
+}
+header nav {
+	width:100%;
+	/* Flexbox */
+	display:flex;
+	flex-flow: row wrap;
+
+	align-items:center;
+	
+		margin-top:10px;
+	border-bottom: solid;
+	border-bottom-width:1px;
+	border-bottom-color:#F46C6C; 
+	border-top: solid;
+	border-top-width:1px;
+	border-top-color:#F46C6C; 
+}
+
+header nav a {
+
+	color:#16A085;
+	text-align: center;
+	text-decoration: none;
+	padding:10px;
+
+	/* Flexbox */
+	flex-grow:1; /*Especifica el numero maximo de items flex que pueden adecuarse en una zona*/
+}
+.emergencia{
+	width:100%;
+	margin-top: 20px;
+	background-color:#F46C6C;
+
+	display: flex;
+	justify-content:space-evenly;
+
+}
+.emergencia .paso{
+	width:40%;
+	background-color:white ;
+	color:#34495E;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+header nav a:hover {	color:#F46C6C;
+	font-weight: bolder;
+}
+.btn-enviar{
+    background: white;
+    color:#16A085;
+    cursor: pointer;
+    margin-top:50px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size:50px;
+}
+
+.btn-enviar:active{
+    transform:scale(1.05);
+}
+.social {
+	background:#F46C6C;
+	width:99.5%;
+	display: flex;
+	flex-flow:row wrap;
+	align-items:center;
+	justify-content:space-evenly;
+}
+footer{
+	margin-top:8%;
+	margin-bottom:0%;
+	width:100%;
+}
+@media screen and (max-width: 600px) {
+
+
+    }
